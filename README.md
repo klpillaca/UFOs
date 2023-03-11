@@ -6,6 +6,38 @@ In this week's challenge we were tasked with building a dynamic table using stor
 ## Results
 ### Implementation
 
+To run a search on the website using the input filters, this is what one would initially see when viewing the website. We have sample text in each of the filters suggesting a user how and what to input. 
+![Screenshot 2023-03-11 105331](https://user-images.githubusercontent.com/119636655/224494309-3005d52a-567a-4681-b49f-8a7c0c5a6bf9.png)
+
+### To Search by Date
+In this search we will start with searching by the date of occurance. For this example we will use "1/4/2010". After we enter this date into the input bar, we can click anywhere on the site or hit "enter" on our keyboard to activate the search. This is true to execute any additional criteria we request a search for. We see now that the returned results are all from the date we entered. 
+
+![Screenshot 2023-03-11 105245](https://user-images.githubusercontent.com/119636655/224494254-d6b4ae66-f3a4-4d20-bf07-9f14208c1ab0.png)
+
+### To Search by Date and City
+To delve deeper into this search, we will use the city "reedville" in the "City" filter. We can see that one table entry fits our criteria. 
+
+![Screenshot 2023-03-11 105448](https://user-images.githubusercontent.com/119636655/224494352-1bdef6f3-feae-4274-ad10-a6f46330853e.png)
+
+### To Search by Date and Shape
+We can remove our "City" by erasing what we entered into the input box and add "light" to the "Shape" parameter. This will show us all of the "light" shapes on 1/4/2010.
+
+![Screenshot 2023-03-11 105533](https://user-images.githubusercontent.com/119636655/224494395-4d735c16-ad28-480d-bcfb-31e9e7a216c7.png)
+
+### To Search by Date and State
+If we want to see all of a specific state occurance on a date, we can remove our "light" criteria and enter "ca" in the "State" input. This shows us all the instances California has had a UFO sighting on 1/4/2010.
+
+![Screenshot 2023-03-11 105628](https://user-images.githubusercontent.com/119636655/224494431-07f5b0d0-23d3-4b2a-a803-d2564e73f08a.png)
+### How to Reset the Filters
+To state a new search, there are multiple ways to reset the filters:
+- Reset the webpage by using the refresh button at the top
+- Click on "UFO Sightings" in the top left corner (pictured below)
+- Manually delete your information from the input boxes. 
+
+![Screenshot 2023-03-11 105802](https://user-images.githubusercontent.com/119636655/224494503-10831f21-71b4-4fac-b4c4-540ce965b2f9.png)
+
+
+
 
 ## Summary
 ### Conclusion
